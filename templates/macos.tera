@@ -1,0 +1,127 @@
+---
+whiskers:
+  version: "2.5.1"
+  matrix:
+    - flavor
+  filename: "themes/catppuccin_{{ flavor.identifier }}/macos"
+---
+
+name: Catppuccin {{ flavor.name }}
+shortname: catppuccin_{{ flavor.identifier }}_pivoshenko
+isDark: {{ if(cond=flavor.dark, t=1, f=0) }}
+tinted: 1
+parent: {{ if(cond=flavor.dark, t='dark', f='light') }}
+copyright: Catppuccin
+
+accent: #{{ blue.hex }}
+accentIcon: #{{ blue.hex }}
+accentIconBubble_incoming: #{{ subtext1.hex }}
+accentIconBubble_outgoing: #{{ text.hex }}
+accentSelect: #{{ overlay0.hex }}
+badge: #{{ blue.hex }}
+badgeMuted: #{{ overlay1.hex }}
+background: #{{ base.hex }}
+basicAccent: #{{ overlay0.hex }}
+blackTransparent: #{{ crust.hex }}
+border: #{{ surface0.hex }}
+bubbleBackground_incoming: #{{ surface0.hex }}
+bubbleBackgroundBottom_outgoing: #{{ base.hex }}
+bubbleBackgroundHighlight_incoming: #{{ surface1.hex }}
+bubbleBackgroundHighlight_outgoing: #{{ blue.hex }}
+bubbleBackgroundTop_outgoing: #{{ base.hex }}
+bubbleBorder_incoming: #{{ surface0.hex }}
+bubbleBorder_outgoing: #{{ base.hex }}
+c#{{ overlay1.hex }}Text: #{{ subtext1.hex }}
+c#{{ overlay1.hex }}yTextDisabledBubgoing: #{{ subtext1.hex }}
+c#{{ overlay1.hex }}yTextDisabledBuboming: #{{ subtext1.hex }}
+c#{{ overlay1.hex }}yTextDisabled: #{{ subtext1.hex }}
+chatBackground: #181825
+chatDateActive: #{{ surface0.hex }}
+chatReplyTextEnabledBubble_incoming: #{{ text.hex }}
+chatReplyTextEnabledBubble_outgoing: #{{ text.hex }}
+chatReplyTitle: #{{ blue.hex }}
+chatReplyTitleBubble_incoming: #{{ text.hex }}
+chatReplyTitleBubble_outgoing: #{{ text.hex }}
+darkGrayText: #{{ subtext0.hex }}
+fileActivityBackground: #{{ blue.hex }}
+fileActivityBackgroundBubble_incoming: #{{ subtext1.hex }}
+fileActivityBackgroundBubble_outgoing: #{{ text.hex }}
+fileActivityForeground: #{{ text.hex }}
+fileActivityForegroundBubble_incoming: #{{ surface1.hex }}
+fileActivityForegroundBubble_outgoing: #{{ sky.hex }}
+focusAnimationColor: #{{ blue.hex }}
+grayBackground: #{{ surface1.hex }}
+grayForeground: #{{ surface1.hex }}
+grayHighlight: #{{ surface0.hex }}
+grayIcon: #{{ overlay0.hex }}
+grayIconBubble_incoming: #{{ subtext1.hex }}
+grayIconBubble_outgoing: #{{ subtext1.hex }}
+grayText: #{{ subtext1.hex }}
+grayTextBubble_incoming: #{{ subtext1.hex }}
+grayTextBubble_outgoing: #{{ text.hex }}
+grayTransparent: #{{ surface0.hex }}99
+grayUI: #{{ base.hex }}
+greenBubble_incoming: #{{ blue.hex }}
+greenBubble_outgoing: #{{ blue.hex }}
+greenUI: #{{ green.hex }}
+groupPeerNameCyan: #{{ teal.hex }}
+groupPeerNameGreen: #{{ teal.hex }}
+groupPeerNameLightBlue: #{{ blue.hex }}
+groupPeerNameOrange: #{{ peach.hex }}
+groupPeerNameRed: #{{ red.hex }}
+groupPeerNameViolet: #{{ blue.hex }}
+indicatorColor: #{{ text.hex }}
+l#{{ overlay1.hex }}Text: #{{ subtext1.hex }}
+link: #{{ blue.hex }}
+linkBubble_incoming: #{{ blue.hex }}
+listBackground: #{{ surface0.hex }}
+monospacedCode: #{{ blue.hex }}
+monospacedCodeBubble_incoming: #{{ text.hex }}
+monospacedCodeBubble_outgoing: #{{ text.hex }}
+monospacedPre: #{{ blue.hex }}
+monospacedPreBubble_incoming: #{{ text.hex }}
+monospacedPreBubble_outgoing: #{{ text.hex }}
+peerAvatarBlueBottom: #{{ blue.hex }}
+peerAvatarBlueTop: #{{ sky.hex }}
+peerAvatarCyanBottom: #{{ teal.hex }}
+peerAvatarCyanTop: #{{ teal.hex }}
+peerAvatarGreenBottom: #{{ blue.hex }}
+peerAvatarGreenTop: #{{ blue.hex }}
+peerAvatarOrangeBottom: #{{ peach.hex }}
+peerAvatarOrangeTop: #{{ yellow.hex }}
+peerAvatarPinkBottom: #{{ blue.hex }}
+peerAvatarRedBottom: #{{ maroon.hex }}
+peerAvatarRedTop: #{{ peach.hex }}
+peerAvatarVioletBottom: #{{ overlay0.hex }}
+peerAvatarVioletTop: #{{ overlay0.hex }}
+redBubble_incoming: #{{ red.hex }}
+redBubble_outgoing: #{{ red.hex }}
+redUI: #{{ red.hex }}
+revealAction_accent_background: #{{ blue.hex }}
+revealAction_accent_foreground: #{{ text.hex }}
+revealAction_constructive_background: #{{ blue.hex }}
+revealAction_constructive_foreground: #{{ text.hex }}
+revealAction_destructive_background: #{{ red.hex }}
+revealAction_destructive_foreground: #{{ text.hex }}
+revealAction_inactive_background: #{{ surface1.hex }}
+revealAction_inactive_foreground: #{{ text.hex }}
+revealAction_neutral1_background: #{{ blue.hex }}
+revealAction_neutral1_foreground: #{{ text.hex }}
+revealAction_neutral2_background: #{{ flamingo.hex }}
+revealAction_neutral2_foreground: #{{ text.hex }}
+revealAction_warning_background: #{{ flamingo.hex }}
+revealAction_warning_foreground: #{{ text.hex }}
+selectMessage: #{{ base.hex }}
+selectMessageBubble: #{{ surface1.hex }}
+selectText: #{{ overlay0.hex }}
+selectTextBubble_incoming: #{{ overlay0.hex }}
+selectTextBubble_outgoing: #{{ overlay0.hex }}
+text: #{{ text.hex }}
+waveformBackground: #{{ subtext1.hex }}B3
+waveformBackgroundBubble_incoming: #{{ subtext1.hex }}
+waveformBackgroundBubble_outgoing: #{{ subtext1.hex }}
+waveformForeground: #{{ blue.hex }}
+waveformForegroundBubble_incoming: #{{ text.hex }}
+waveformForegroundBubble_outgoing: #{{ text.hex }}
+webPreviewActivity: #{{ blue.hex }}
+webPreviewActivityBubble_outgoing: #{{ text.hex }}
