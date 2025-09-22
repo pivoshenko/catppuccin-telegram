@@ -21,7 +21,7 @@ accentSelect: #{{ overlay0.hex }}
 badge: #{{ blue.hex }}
 badgeMuted: #{{ overlay1.hex }}
 background: #{{ base.hex }}
-basicAccent: #{{ overlay0.hex }}
+basicAccent: #{{ base.hex }}
 blackTransparent: #{{ crust.hex }}
 border: #{{ surface0.hex }}
 bubbleBackground_incoming: #{{ surface0.hex }}
@@ -35,7 +35,7 @@ c#{{ overlay1.hex }}Text: #{{ subtext1.hex }}
 c#{{ overlay1.hex }}yTextDisabledBubgoing: #{{ subtext1.hex }}
 c#{{ overlay1.hex }}yTextDisabledBuboming: #{{ subtext1.hex }}
 c#{{ overlay1.hex }}yTextDisabled: #{{ subtext1.hex }}
-chatBackground: #181825
+chatBackground: {{ mantle.hex }}
 chatDateActive: #{{ surface0.hex }}
 chatReplyTextEnabledBubble_incoming: #{{ text.hex }}
 chatReplyTextEnabledBubble_outgoing: #{{ text.hex }}

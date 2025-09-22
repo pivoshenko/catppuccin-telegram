@@ -14,7 +14,7 @@ accentSelect: #6c7086
 badge: #89b4fa
 badgeMuted: #7f849c
 background: #1e1e2e
-basicAccent: #6c7086
+basicAccent: #1e1e2e
 blackTransparent: #11111b
 border: #313244
 bubbleBackground_incoming: #313244
@@ -28,7 +28,7 @@ c#7f849cText: #bac2de
 c#7f849cyTextDisabledBubgoing: #bac2de
 c#7f849cyTextDisabledBuboming: #bac2de
 c#7f849cyTextDisabled: #bac2de
-chatBackground: #181825
+chatBackground: 181825
 chatDateActive: #313244
 chatReplyTextEnabledBubble_incoming: #cdd6f4
 chatReplyTextEnabledBubble_outgoing: #cdd6f4
