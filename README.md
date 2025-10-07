@@ -11,6 +11,12 @@
     <a href="https://github.com/pivoshenko/catppuccin-telegram/contributors"><img src="https://img.shields.io/github/contributors/pivoshenko/catppuccin-telegram?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
+<p align="center">
+  <a href="https://stand-with-ukraine.pp.ua">
+    <img alt="StandWithUkraine" src="https://img.shields.io/badge/Support-Ukraine-FFC93C?style=for-the-badge&logoColor=cad3f5&labelColor=07689F">
+  </a>
+</p>
+
 ## 🪴 Overview
 
 Soothing pastel theme for Telegram.
